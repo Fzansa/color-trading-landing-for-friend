@@ -183,7 +183,7 @@
   font-size: 25px;
   text-shadow: 2px 2px 0px black;
 }
-.secondPage{
+.secondPage {
   padding: 60px;
   background: rgb(2, 0, 36);
   background: linear-gradient(
@@ -194,10 +194,9 @@
   );
   box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
   text-align: center;
-
 }
 
-.secondPage > h1{
+.secondPage > h1 {
   color: white;
   font-size: 42px;
 }
@@ -212,7 +211,7 @@
 
 .ssImg {
   width: 25%;
-  border:5px solid white;
+  border: 5px solid white;
   border-radius: 12px;
   overflow: hidden;
 }
@@ -224,13 +223,16 @@
 }
 
 /* making responsive */
-@media (max-width:767px) {
-  .ssContainer{
-    padding:0px;
-    padding-top: 60px;
-    flex-wrap:wrap;
+@media (max-width: 767px) {
+  .secondPage {
+    padding: 60 15px;
   }
-  .ssImg{
+  .ssContainer {
+    padding: 0px;
+    padding-top: 60px;
+    flex-wrap: wrap;
+  }
+  .ssImg {
     width: 45%;
   }
 }
