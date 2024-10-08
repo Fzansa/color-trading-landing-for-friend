@@ -103,6 +103,7 @@
 }
 
 .joinBtn {
+  display: inline-block;
   border: none;
   padding: 10px 25px;
   background-color: #229200;
@@ -112,6 +113,7 @@
   cursor: pointer;
   margin: 24px auto;
   border-radius: 5px;
+  text-decoration: none;
 }
 
 .joinBtn i {
